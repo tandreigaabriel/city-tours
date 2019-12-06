@@ -13,7 +13,7 @@ export default class Tour extends Component {
         })
     }
     render() {
-        const { id, city, img, name, info } = this.props.tour;
+        const { id, city, img, name, gmap, info } = this.props.tour;
         const { removeTour } = this.props;
         return (
             <article className="tour">
@@ -31,6 +31,9 @@ export default class Tour extends Component {
                 <div className="tour-info">
                     <h3>{city}</h3>
                     <h4>{name}</h4>
+                    <h6>{gmap}</h6>
+
+
                     <h5>
                         info{" "}
                         <span onClick={this.handleInfo}>
