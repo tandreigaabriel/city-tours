@@ -1,0 +1,31 @@
+@import '../../index.scss';
+
+.footer {
+  background: linear-gradient(0.25turn, #0000FF, #FFFF00, #FF0000);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+
+  .icons {
+    font-size: 30px;
+    margin: 10px;
+    padding-top: 10px;
+    align-self: center;
+  }
+
+  :hover {
+    color: $mainOrangeRed;
+  }
+}
+
+.smg {
+  font-family:  'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: $mainBlack;
+
+.a {
+  color: $mainBlack;
+}
+
+}

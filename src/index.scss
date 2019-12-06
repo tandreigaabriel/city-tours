@@ -1,0 +1,24 @@
+// Basic setup
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$mainBlack: #222;
+$mainGreen: #82b340;
+$mainWhite: #fff;
+$mainGrey: #ececec;
+$mainRed:	#DC143C;
+$mainOrangeRed:#FF4500;
+$lightCoral:	#F08080;
+$darkGrey:#A9A9A9;
+
+// all body
+
+body {
+  background: $mainGrey;
+  color: $mainBlack;
+  font-family: 'Open Sans', sans-serif;
+}
